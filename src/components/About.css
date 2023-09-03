@@ -1,0 +1,48 @@
+.app__flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.head-text {
+  font-size: 2.75rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.head-text span {
+  color: var(--secondary-color);
+}
+
+.app__profile-item {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2rem;
+  width: 190px;
+}
+.app__profile-item:hover {
+  cursor: pointer;
+  transform: scale(1.1) translateZ(0px) !important;
+  transition: 1s;
+}
+.app__profile-item img {
+  border-radius: 15px;
+  height: 170px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.bold-text {
+  color: var(--black-color);
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.p-text {
+  color: var(--gray-color);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: left;
+}

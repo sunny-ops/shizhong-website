@@ -32,7 +32,7 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto " style={{ marginLeft: "auto" }}>
             <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#link">ABOUT</Nav.Link>
+            <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#work">WORK</Nav.Link>
             <Nav.Link href="#skills">SKILLS</Nav.Link>
             <Nav.Link href="#contact">CONTACT</Nav.Link>
