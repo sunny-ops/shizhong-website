@@ -35,7 +35,7 @@ function About(props) {
           </a>
         </div>
       </div>
-      <div className="app__wrapper app__flex">
+      <div className="app__wrapper app__flex" style={{ position: "relative" }}>
         <h2 class="head-text">
           I Know that <span>Good Development</span> <br />
           means
@@ -105,6 +105,10 @@ function About(props) {
               and Web Development.
             </p>
           </div>
+        </div>
+        <div class="copyright">
+          <p class="p-text"> @2023 Sunny </p>
+          <p class="p-text"> All rights reserved </p>
         </div>
       </div>
       <div class="navigation">
