@@ -14,3 +14,13 @@
   height: 70%;
   width: 70%;
 }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.app_wrapper {
+  flex-grow: 1;
+}

@@ -1,0 +1,110 @@
+#home {
+  background: url(https://solely-resume.netlify.app/static/media/bgIMG.c39101e520e2997fc6d4.png);
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.social div {
+  display: flex;
+  background-color: var(--white-color);
+  border: 1px solid var(--lightGray-color);
+  border-radius: 50%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 0;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+}
+
+.navigation {
+  z-index: 100;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app__navigation-dot {
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  height: 10px;
+  margin: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+  width: 10px;
+}
+
+/* home page middle */
+.app__header {
+  flex: 1 1;
+  flex-direction: row;
+  height: 100%;
+  padding: 6rem 2rem 0;
+  position: relative;
+  width: 100%;
+}
+
+.app__flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.app__header-info {
+  align-items: flex-start;
+  display: flex;
+  flex: 0.65 1;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  margin: 0 2rem;
+}
+
+.app__header-badge {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.app__header-badge .badge-cmp,
+.app__header-badge .tag-cmp {
+  background: var(--white-color);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  padding: 1rem 2rem;
+  width: auto;
+}
+
+.app__header-badge .tag-cmp {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.app__header-badge .tag-cmp {
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.p-text {
+  color: var(--gray-color);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.app__header-badge span {
+  font-size: 2.5rem;
+}
