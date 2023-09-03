@@ -37,10 +37,165 @@ function Skills(props) {
         </div>
       </div>
       <div className="app__wrapper app__flex" style={{ position: "relative" }}>
-        <h2 class="head-text ">Skills & Experiences</h2>
-        <div className="row" style={{ width: "90%" }}>
-          <div className="col-lg-7 col-12">1</div>
-          <div className="col-lg-5 col-12">2</div>
+        <h2 className="head-text" style={{ margin: "50px" }}>
+          Skills & Experiences
+        </h2>
+        <div className="row" style={{ width: "80%" }}>
+          <div className="col-lg-7 col-12">
+            <div class="app__skills-list">
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png"
+                    alt="NodeJS"
+                  />
+                </div>
+                <p class="p-text">NodeJS</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/a46e60325617611a441bdd58a817545fb62dab84-336x150.jpg"
+                    alt="less"
+                  />
+                </div>
+                <p class="p-text">less</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/a804a741fb26f6c236c73086a87cfc9f64106401-480x480.png"
+                    alt="git"
+                  />
+                </div>
+                <p class="p-text">git</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/a9060999e44997722d3664c7a4a1a76828de4b66-225x225.jpg"
+                    alt="bootstrap5"
+                  />
+                </div>
+                <p class="p-text">bootstrap5</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/31f11147f89dbd855a9b948e2ce643ea2f41c0a9-480x480.png"
+                    alt="HTML"
+                  />
+                </div>
+                <p class="p-text">HTML</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/107574d887f1c07c9fbea0704de7f293e244a8f3-480x480.png"
+                    alt="CSS"
+                  />
+                </div>
+                <p class="p-text">CSS</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png"
+                    alt="JavaScript"
+                  />
+                </div>
+                <p class="p-text">JavaScript</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png"
+                    alt="Sass"
+                  />
+                </div>
+                <p class="p-text">Sass</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/64f3e20f8ad906d56dea96863b6db87fad6efb52-64x64.png"
+                    alt="Typescript"
+                  />
+                </div>
+                <p class="p-text">Typescript</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/91716227a0183f05eb4c2c846dda4ec6d3ea433c-480x480.png"
+                    alt="Redux"
+                  />
+                </div>
+                <p class="p-text">Redux</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-5 col-12">
+            <div class="app__skills-exp">
+              <div class="app__skills-exp-item">
+                <div class="app__skills-exp-year">
+                  <p class="bold-text">2019-2020</p>
+                </div>
+                <div class="app__skills-exp-works">
+                  <div
+                    class="app__skills-exp-work"
+                    data-tip="true"
+                    data-for="Frontend Developer"
+                    // style="opacity: 1;"
+                  >
+                    <h4 class="bold-text">Frontend Developer</h4>
+                    <p class="p-text">XX Company</p>
+                  </div>
+                  <div
+                    class="app__skills-exp-work"
+                    data-tip="true"
+                    data-for="Frontend Developer"
+                    // style="opacity: 1;"
+                  >
+                    <h4 class="bold-text">Frontend Developer</h4>
+                    <p class="p-text">XX Company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="app__skills-exp-item">
+                <div class="app__skills-exp-year">
+                  <p class="bold-text">2020-2023</p>
+                </div>
+                <div class="app__skills-exp-works">
+                  <div
+                    class="app__skills-exp-work"
+                    data-tip="true"
+                    data-for="FullStack Developer"
+                    // style="opacity: 1;"
+                  >
+                    <h4 class="bold-text">FullStack Developer</h4>
+                    <p class="p-text">xx Company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="app__skills-exp-item">
+                <div class="app__skills-exp-year">
+                  <p class="bold-text">2019-2020</p>
+                </div>
+                <div class="app__skills-exp-works">
+                  <div
+                    class="app__skills-exp-work"
+                    data-tip="true"
+                    data-for="Frontend Developer"
+                    // style="opacity: 1;"
+                  >
+                    <h4 class="bold-text">Frontend Developer</h4>
+                    <p class="p-text">XX Company</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="copyright">
           <p class="p-text"> @2023 Sunny </p>
