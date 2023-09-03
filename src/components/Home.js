@@ -38,7 +38,7 @@ function Home(props) {
         </div>
       </div>
       <div className="app__wrapper d-grid">
-        <div id="home" class=" row">
+        <div id="home" class="row">
           <div
             class="app__header-info col-lg-4 col-12"
             style={{

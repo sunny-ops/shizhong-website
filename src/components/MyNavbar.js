@@ -7,7 +7,7 @@ import "./MyNavbar.css";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" style={{ opacity: "0.5" }}>
       <Container>
         <Navbar.Brand href="#home">Sunny</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">

@@ -1,8 +1,13 @@
 import React from "react";
-import "./About.css";
-function About(props) {
+import "./Work.css";
+
+function Work(props) {
   return (
-    <div id="about" style={{ height: "100vh" }} className="d-flex flex-row">
+    <div
+      id="work"
+      style={{ height: "100vh", backgroundColor: "var(--primary-color)" }}
+      className="d-flex flex-row"
+    >
       <div className="social">
         <div>
           <a href="javascript:void(0);">
@@ -36,20 +41,19 @@ function About(props) {
         </div>
       </div>
       <div className="app__wrapper app__flex" style={{ position: "relative" }}>
-        <h2 class="head-text">
-          I Know that <span>Good Development</span> <br />
-          means
-          <span>Good Developer</span>
+        <h2 class="head-text ">
+          My Creative <span>Portfolio </span>Section
         </h2>
         <div
-          className="row d-flex justify-content-center gap-3"
-          style={{ width: "90%" }}
+          className="row d-flex justify-content-center gap-3 app__work-portfolio"
+          style={{ width: "80%" }}
         >
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
+              style={{ width: "90%" }}
               src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
               alt="Master of Computer Science"
             />
@@ -61,10 +65,11 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
+              style={{ width: "90%" }}
               src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
               alt="Master of Computer Science"
             />
@@ -76,10 +81,11 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
+              style={{ width: "90%" }}
               src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
               alt="Master of Computer Science"
             />
@@ -91,10 +97,11 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
+              style={{ width: "90%" }}
               src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
               alt="Master of Computer Science"
             />
@@ -113,12 +120,12 @@ function About(props) {
       </div>
       <div class="navigation">
         <a href="#home" class="app__navigation-dot"></a>
+        <a href="#about" class="app__navigation-dot"></a>
         <a
-          href="#about"
+          href="#work"
           class="app__navigation-dot"
           style={{ backgroundColor: "rgb(49, 59, 172)" }}
         ></a>
-        <a href="#work" class="app__navigation-dot"></a>
         <a href="#skills" class="app__navigation-dot"></a>
         <a href="#testimonial" class="app__navigation-dot"></a>
         <a href="#contact" class="app__navigation-dot"></a>
@@ -127,4 +134,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default Work;
