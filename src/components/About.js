@@ -120,7 +120,7 @@ function About(props) {
         ></a>
         <a href="#work" class="app__navigation-dot"></a>
         <a href="#skills" class="app__navigation-dot"></a>
-        <a href="#testimonial" class="app__navigation-dot"></a>
+
         <a href="#contact" class="app__navigation-dot"></a>
       </div>
     </div>

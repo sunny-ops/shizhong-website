@@ -1,0 +1,68 @@
+.app__footer-cards .app__footer-card {
+  align-items: center;
+  background-color: #fef4f5;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  min-width: 290px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.app__footer-cards .app__footer-card:last-child {
+  background-color: #f2f7fb;
+}
+
+.app__footer-cards .app__footer-card img {
+  height: 40px;
+  margin: 0 0.7rem;
+  width: 40px;
+}
+
+.app__footer-form {
+  flex-direction: column;
+  margin: 1rem 2rem;
+  width: 60%;
+}
+
+.app__footer-form div input,
+.app__footer-form div textarea {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 7px;
+  color: var(--secondary-color);
+  font-family: var(--font-base);
+  outline: none;
+  padding: 0.95rem;
+  width: 100%;
+}
+
+.app__footer-form div {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.75rem 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.app__footer-form div textarea {
+  height: 170px;
+}
+
+.app__footer-form button {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-weight: 500;
+  margin: 2rem 0 0;
+  outline: none;
+  padding: 1rem 2rem;
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}

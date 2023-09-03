@@ -127,7 +127,7 @@ function Work(props) {
           style={{ backgroundColor: "rgb(49, 59, 172)" }}
         ></a>
         <a href="#skills" class="app__navigation-dot"></a>
-        <a href="#testimonial" class="app__navigation-dot"></a>
+
         <a href="#contact" class="app__navigation-dot"></a>
       </div>
     </div>

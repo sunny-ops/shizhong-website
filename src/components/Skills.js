@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills(props) {
   return (
-    <div id="work" style={{ height: "100vh" }} className="d-flex flex-row">
+    <div id="skills" style={{ height: "100vh" }} className="d-flex flex-row">
       <div className="social">
         <div>
           <a href="javascript:void(0);">
@@ -211,7 +211,7 @@ function Skills(props) {
           class="app__navigation-dot"
           style={{ backgroundColor: "rgb(49, 59, 172)" }}
         ></a>
-        <a href="#testimonial" class="app__navigation-dot"></a>
+
         <a href="#contact" class="app__navigation-dot"></a>
       </div>
     </div>
