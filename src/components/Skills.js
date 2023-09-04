@@ -46,6 +46,16 @@ function Skills(props) {
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png"
+                    alt="JavaScript"
+                  />
+                </div>
+                <p class="p-text">JavaScript</p>
+              </div>
+
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
                     src="https://cdn.sanity.io/images/w1h2v7s6/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png"
                     alt="NodeJS"
                   />
@@ -55,12 +65,40 @@ function Skills(props) {
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
-                    src="https://cdn.sanity.io/images/w1h2v7s6/production/a46e60325617611a441bdd58a817545fb62dab84-336x150.jpg"
-                    alt="less"
+                    src="https://cdn.sanity.io/images/06fwndg0/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png"
+                    alt="React"
                   />
                 </div>
-                <p class="p-text">less</p>
+                <p class="p-text">React</p>
               </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/06fwndg0/production/905a2a9fd24b3f3aa44c1fab7efaa74729762f93-259x259.png"
+                    alt="Java"
+                  />
+                </div>
+                <p class="p-text">Java</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://cdn.sanity.io/images/06fwndg0/production/aa1dc780814cb5c67190adc0b032bf0671309d9c-64x64.png"
+                    alt="Python"
+                  />
+                </div>
+                <p class="p-text">Python</p>
+              </div>
+              <div class="app__skills-item app__flex">
+                <div class="app__flex">
+                  <img
+                    src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+                    alt="MySQL"
+                  />
+                </div>
+                <p class="p-text">MySQL</p>
+              </div>
+
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
@@ -100,12 +138,13 @@ function Skills(props) {
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
-                    src="https://cdn.sanity.io/images/w1h2v7s6/production/66bbf9242b1ccffebb5d46f376f5036b527fad48-480x480.png"
-                    alt="JavaScript"
+                    src="https://cdn.sanity.io/images/w1h2v7s6/production/a46e60325617611a441bdd58a817545fb62dab84-336x150.jpg"
+                    alt="less"
                   />
                 </div>
-                <p class="p-text">JavaScript</p>
+                <p class="p-text">less</p>
               </div>
+
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
@@ -124,6 +163,7 @@ function Skills(props) {
                 </div>
                 <p class="p-text">Typescript</p>
               </div>
+
               <div class="app__skills-item app__flex">
                 <div class="app__flex">
                   <img
@@ -139,7 +179,7 @@ function Skills(props) {
             <div class="app__skills-exp">
               <div class="app__skills-exp-item">
                 <div class="app__skills-exp-year">
-                  <p class="bold-text">2019-2020</p>
+                  <p class="bold-text">09/2021 - Present</p>
                 </div>
                 <div class="app__skills-exp-works">
                   <div
@@ -148,23 +188,14 @@ function Skills(props) {
                     data-for="Frontend Developer"
                     // style="opacity: 1;"
                   >
-                    <h4 class="bold-text">Frontend Developer</h4>
-                    <p class="p-text">XX Company</p>
-                  </div>
-                  <div
-                    class="app__skills-exp-work"
-                    data-tip="true"
-                    data-for="Frontend Developer"
-                    // style="opacity: 1;"
-                  >
-                    <h4 class="bold-text">Frontend Developer</h4>
-                    <p class="p-text">XX Company</p>
+                    <h4 class="bold-text">Computer Science Master Student</h4>
+                    <p class="p-text">Northeastern University</p>
                   </div>
                 </div>
               </div>
               <div class="app__skills-exp-item">
                 <div class="app__skills-exp-year">
-                  <p class="bold-text">2020-2023</p>
+                  <p class="bold-text">04/2023 - 07/2023</p>
                 </div>
                 <div class="app__skills-exp-works">
                   <div
@@ -173,24 +204,8 @@ function Skills(props) {
                     data-for="FullStack Developer"
                     // style="opacity: 1;"
                   >
-                    <h4 class="bold-text">FullStack Developer</h4>
-                    <p class="p-text">xx Company</p>
-                  </div>
-                </div>
-              </div>
-              <div class="app__skills-exp-item">
-                <div class="app__skills-exp-year">
-                  <p class="bold-text">2019-2020</p>
-                </div>
-                <div class="app__skills-exp-works">
-                  <div
-                    class="app__skills-exp-work"
-                    data-tip="true"
-                    data-for="Frontend Developer"
-                    // style="opacity: 1;"
-                  >
-                    <h4 class="bold-text">Frontend Developer</h4>
-                    <p class="p-text">XX Company</p>
+                    <h4 class="bold-text">Software Develop Engineer Intern</h4>
+                    <p class="p-text">Solvd Inc</p>
                   </div>
                 </div>
               </div>

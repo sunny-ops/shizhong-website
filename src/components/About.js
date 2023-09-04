@@ -38,7 +38,7 @@ function About(props) {
       <div className="app__wrapper app__flex" style={{ position: "relative" }}>
         <h2 class="head-text">
           I Know that <span>Good Development</span> <br />
-          means
+          means &nbsp;
           <span>Good Developer</span>
         </h2>
         <div
@@ -50,8 +50,9 @@ function About(props) {
             style={{ opacity: "1", transform: "none" }}
           >
             <img
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
+              src="https://static.vecteezy.com/system/resources/previews/004/060/157/original/female-graduate-cartoon-free-vector.jpg"
               alt="Master of Computer Science"
+              className="mb-3"
             />
             <h2 class="bold-text">Master of Computer Science</h2>
             <p class="p-text">
@@ -65,14 +66,17 @@ function About(props) {
             style={{ opacity: "1", transform: "none" }}
           >
             <img
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
-              alt="Master of Computer Science"
+              src="https://cdn.sanity.io/images/w1h2v7s6/production/db53adca404b7410a2869db815e4ce77da2e7e53-1200x900.png"
+              alt="frontend"
+              className="mb-3"
             />
-            <h2 class="bold-text">Master of Computer Science</h2>
+            <h2 class="bold-text">
+              Frontend Developer <br /> &nbsp;
+            </h2>
             <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
+              I am a frontend developer with a passion for building beautiful
+              and functional web applications. I am familiar with Javascript,
+              React, Redux, and Bootstrap
             </p>
           </div>
           <div
@@ -80,14 +84,17 @@ function About(props) {
             style={{ opacity: "1", transform: "none" }}
           >
             <img
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
-              alt="Master of Computer Science"
+              src="https://cdn.sanity.io/images/06fwndg0/production/f3dac452f07d75bacd155b1e1b0d91396f28e817-1610x856.png"
+              alt="Full stack"
+              className="mb-3"
             />
-            <h2 class="bold-text">Master of Computer Science</h2>
+            <h2 class="bold-text">
+              Fullstack Developer <br /> &nbsp;
+            </h2>
             <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
+              Having a interest in full-stack development, I have honed my
+              skills in Node.js, Express, MySQL, and MongoDB, enabling me to
+              craft outstanding services.
             </p>
           </div>
           <div
@@ -95,14 +102,17 @@ function About(props) {
             style={{ opacity: "1", transform: "none" }}
           >
             <img
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
+              src="https://miro.medium.com/v2/resize:fit:480/1*TtFboLb09Ag9C6hjri6jeQ.jpeg"
               alt="Master of Computer Science"
+              className="mb-3"
             />
-            <h2 class="bold-text">Master of Computer Science</h2>
+            <h2 class="bold-text">
+              Software Enthusiast <br /> &nbsp;{" "}
+            </h2>
             <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
+              I'm deeply passionate about solving real-world problems. Each
+              project presents a new challenge, driving me to constantly learn
+              and adapt.
             </p>
           </div>
         </div>
