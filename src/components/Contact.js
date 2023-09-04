@@ -1,7 +1,14 @@
 import React from "react";
 import "./Contact.css";
+import { useState } from "react";
 
 function Contact(props) {
+  const [chat, setChat] = useState(false);
+
+  const sendBtn = () => {
+    setChat(true);
+    console.log(chat);
+  };
   return (
     <div id="skills" style={{ height: "100vh" }} className="d-flex flex-row">
       <div className="social">
@@ -47,7 +54,7 @@ function Contact(props) {
               alt="email"
             />
             <a href="javascript:void(0);" class="p-text">
-              Solely.world@gmail.com
+              zhong.shi1@northeastern.edu
             </a>
           </div>
           <div class="app__footer-card">
@@ -56,40 +63,47 @@ function Contact(props) {
               alt="phone"
             />
             <a href="tel:+1 (929)398-9768" class="p-text">
-              +x (xxx)xxx-xxxx
+              +1 (612) 720-6488
             </a>
           </div>
         </div>
-        <div class="app__footer-form app__flex">
-          <div class="app__flex">
-            <input
-              class="p-text"
-              type="text"
-              placeholder="Your Name"
-              name="username"
-              value=""
-            />
+        {!chat ? (
+          <div class="app__footer-form app__flex">
+            <div class="app__flex">
+              <input
+                class="p-text"
+                type="text"
+                placeholder="Your Name"
+                name="username"
+                value=""
+              />
+            </div>
+            <div class="app__flex">
+              <input
+                class="p-text"
+                type="email"
+                placeholder="Your Email"
+                name="email"
+                value=""
+              />
+            </div>
+            <div>
+              <textarea
+                class="p-text"
+                placeholder="Your Message"
+                name="message"
+              ></textarea>
+            </div>
+            <button type="button" class="p-text" onClick={sendBtn}>
+              Send Message
+            </button>
           </div>
-          <div class="app__flex">
-            <input
-              class="p-text"
-              type="email"
-              placeholder="Your Email"
-              name="email"
-              value=""
-            />
-          </div>
-          <div>
-            <textarea
-              class="p-text"
-              placeholder="Your Message"
-              name="message"
-            ></textarea>
-          </div>
-          <button type="button" class="p-text">
-            Send Message
-          </button>
-        </div>
+        ) : (
+          <h2 className="head-text" style={{ margin: "50px" }}>
+            Thank You For Getting In Touch!
+          </h2>
+        )}
+
         <div class="copyright">
           <p class="p-text"> @2023 Sunny </p>
           <p class="p-text"> All rights reserved </p>
