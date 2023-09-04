@@ -5,7 +5,7 @@
   color: #000;
   cursor: pointer;
   flex-direction: column;
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 1rem;
   transition: all 0.3s ease;
   width: 270px;
@@ -15,6 +15,48 @@
   height: 230px;
   position: relative;
   width: 100%;
+  overflow: hidden;
+}
+
+.app__work-hover,
+.app__work-hover div {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.app__work-hover {
+  border-radius: 0.5rem;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.app__work-content {
+  flex-direction: column;
+  padding: 0.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.app__work-content .app__work-tag {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: -25px;
+}
+
+.p-text {
+  color: var(--gray-color);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0 !important;
 }
 
 .my-project {
