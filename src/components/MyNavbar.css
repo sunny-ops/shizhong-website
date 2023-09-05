@@ -24,3 +24,8 @@
 .app_wrapper {
   flex-grow: 1;
 }
+
+#basic-navbar-nav a:hover {
+  color: var(--secondary-color);
+  /* font-weight: 600; */
+}

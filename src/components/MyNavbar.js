@@ -9,7 +9,17 @@ function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" style={{ opacity: "0.5" }}>
       <Container>
-        <Navbar.Brand href="#home">Sunny</Navbar.Brand>
+        <Navbar.Brand
+          href="#home"
+          style={{
+            color: "var(--secondary-color)",
+            // fontWeight: "600",
+            fontFamily: "Brush Script MT",
+            fontSize: "30px",
+          }}
+        >
+          Sunny's Homepage
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <div class="app__navbar-menu">
             <svg
@@ -30,7 +40,10 @@ function MyNavbar() {
           </div>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto " style={{ marginLeft: "auto" }}>
+          <Nav
+            className="me-auto d-flex flex-row gap-3"
+            style={{ marginLeft: "auto", fontWeight: "600" }}
+          >
             <Nav.Link href="#home">HOME</Nav.Link>
             <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#work">WORK</Nav.Link>
