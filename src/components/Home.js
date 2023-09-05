@@ -64,7 +64,7 @@ function Home(props) {
             <div></div>
           </div>
         </div>
-        <div className="col-lg-4 col-12">
+        <div className="col-lg-4 col-12 d-flex align-items-end">
           <div
             class="app__header-circles"
             style={{ opacity: "1", transform: "none" }}
