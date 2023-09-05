@@ -59,7 +59,11 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-12">haha</div>
+        <div className="col-lg-4 col-12">
+          <div class="app__header-img " style={{ opacity: "1" }}>
+            <div></div>
+          </div>
+        </div>
         <div className="col-lg-4 col-12">xixi</div>
         {/* <div
           class="app__header-info col-lg-4 col-12"
