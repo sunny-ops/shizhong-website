@@ -4,7 +4,11 @@ import shizhongImage from "../images/shizhong.jpg";
 
 function Home(props) {
   return (
-    <div id="home" style={{ minHeight: "100vh" }} className="d-flex flex-row">
+    <div
+      id="home"
+      style={{ minHeight: "100vh", paddingTop: "50px" }}
+      className="d-flex flex-row"
+    >
       <div className="social">
         <div>
           <a href="javascript:void(0);">
@@ -37,8 +41,27 @@ function Home(props) {
           </a>
         </div>
       </div>
-      <div className="app__wrapper row">
-        <div
+      <div className="app__wrapper d-flex flex-row row">
+        <div className="col-lg-4 col-12 app__header-badge d-flex justify-content-end">
+          <div>
+            <div class="badge-cmp app__flex">
+              <span>👋</span>
+              <div style={{ marginLeft: "20px" }}>
+                <p class="p-text">Hello, I am</p>
+                <h1 class="head-text">Sunny</h1>
+              </div>
+            </div>
+            <div class="tag-cmp app__flex">
+              <h3 class="p-text">FRONTEND ENGINEER</h3>
+
+              <h3 class="p-text">BACKEND ENGINEER</h3>
+              <h3 class="p-text">FULLSTACK DEVELOPER</h3>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-12">haha</div>
+        <div className="col-lg-4 col-12">xixi</div>
+        {/* <div
           class="app__header-info col-lg-4 col-12"
           style={{
             opacity: "1",
@@ -62,7 +85,7 @@ function Home(props) {
           </div>
         </div>
         <div class="app__header-img col-lg-4 col-12" style={{ opacity: "1" }}>
-          <div>{/* <img src={shizhongImage} alt="profile_bg" /> */}</div>
+          <div></div>
         </div>
         <div
           class="app__header-circles col-lg-4 col-12"
@@ -107,7 +130,7 @@ function Home(props) {
               alt="profile_bg"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div class="navigation">
         <a

@@ -78,12 +78,16 @@
   margin: 0 2rem;
 }
 
-.app__header-badge {
+/* .app__header-badge {
   align-items: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
+} */
+
+.app__header-badge {
+  justify-content: flex-end;
 }
 
 .app__header-badge .badge-cmp,
@@ -93,7 +97,8 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   flex-direction: row;
   padding: 1rem 2rem;
-  width: auto;
+  /* width: auto; */
+  width: 230px;
 }
 
 .app__header-badge .tag-cmp {
