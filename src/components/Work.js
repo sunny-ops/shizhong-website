@@ -54,10 +54,10 @@ function Work(props) {
           >
             <div class="app__work-item app__flex">
               <div class="app__work-img app__flex">
-                <img src="https://cdn.sanity.io/images/w1h2v7s6/production/323406ac05b5f8b892b819cec150e2e93fdca1fa-500x265.png" />
-                <div class="app__work-hover app__flex" style={{ opacity: "0" }}>
+                <img src={require("../images/dashboard-analytics.png")} />
+                <div class="app__work-hover app__flex">
                   <a
-                    href="https://solelysneat.vercel.app/dashboards/analytics/"
+                    href="https://dashboard-analytics-sunny-0ea28ea8bba0.herokuapp.com/analytics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,7 +76,7 @@ function Work(props) {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/Millerlive/Solely-ecommerce-frontend.git"
+                    href="https://github.com/sunny-ops/Dashboard-analytics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -97,11 +97,11 @@ function Work(props) {
                 </div>
               </div>
               <div class="app__work-content app__flex">
-                <h4 class="bold-text">solelysneat.vercel.app</h4>
+                <h4 class="bold-text">The dashboard platform</h4>
                 <p class="p-text" style={{ marginTop: "10px" }}>
-                  Sneat – Material Design React Admin Dashboard Template – is
-                  the most developer friendly &amp; highly customizable Admin
-                  Dashboard Template based on MUI v5.
+                  Material Design React Admin Dashboard Template – is the most
+                  developer friendly &amp; highly customizable Admin Dashboard
+                  Template based on MUI v5.
                 </p>
                 <div class="app__work-tag app__flex">
                   <p class="p-text">ReactJs</p>
@@ -113,49 +113,246 @@ function Work(props) {
             class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
-            <img
-              style={{ width: "90%" }}
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
-              alt="Master of Computer Science"
-            />
-            <h2 class="bold-text">Master of Computer Science</h2>
-            <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
-            </p>
+            <div class="app__work-item app__flex">
+              <div class="app__work-img app__flex">
+                <img src={require("../images/shi-homemade.png")} />
+                <div class="app__work-hover app__flex">
+                  <a
+                    href="https://shiecommerceapp.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/sunny-ops/e-Commerce"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="app__work-content app__flex">
+                <h4 class="bold-text">Homemade E-commerce platform</h4>
+                <p class="p-text" style={{ marginTop: "10px" }}>
+                  a full-stack e-commerce website using MERN stack (MongoDB,
+                  Express, ReactJS, NodeJS) for a small business selling
+                  handmade snacks
+                </p>
+                <div class="app__work-tag app__flex">
+                  <p class="p-text">NodeJs</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
-            <img
-              style={{ width: "90%" }}
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
-              alt="Master of Computer Science"
-            />
-            <h2 class="bold-text">Master of Computer Science</h2>
-            <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
-            </p>
+            <div class="app__work-item app__flex">
+              <div class="app__work-img app__flex">
+                <img src={require("../images/wander-lust.png")} />
+                <div class="app__work-hover app__flex">
+                  <a
+                    href="https://wander-lust-journeys-sunny.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/sunny-ops/WanderLustJourneys"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="app__work-content app__flex">
+                <h4 class="bold-text">Wander-lust journey</h4>
+                <p class="p-text" style={{ marginTop: "10px" }}>
+                  Wander-Lust Journey is a captivating portal dedicated to
+                  showcasing destinations from around the globe. With a blend of
+                  intricate animations and dazzling special effects, the website
+                  offers an immersive experience.
+                </p>
+                <div class="app__work-tag app__flex">
+                  <p class="p-text">Javascript</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             class="my-project m-3 col-lg-3 col-6"
             style={{ opacity: "1", transform: "none" }}
           >
-            <img
-              style={{ width: "90%" }}
-              src="https://cdn.sanity.io/images/06fwndg0/production/608070f874ecb2343a97566af6aff9f602c4543d-1000x1000.png"
-              alt="Master of Computer Science"
-            />
-            <h2 class="bold-text">Master of Computer Science</h2>
-            <p class="p-text">
-              I am currently a master's student in computer science. The main
-              course includes Data Structure and Algoritham, Operating System
-              and Web Development.
-            </p>
+            <div class="app__work-item app__flex">
+              <div class="app__work-img app__flex">
+                <img src="https://cdn.sanity.io/images/w1h2v7s6/production/28595b676dfa369c359a712193944b13e610db1d-600x341.png" />
+                <div class="app__work-hover app__flex">
+                  <a
+                    href="https://eyewear-ecommerce-sunny.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/sunny-ops/Eyewear-Ecommerce"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="app__work-content app__flex">
+                <h4 class="bold-text">Eyeware Ecommerce</h4>
+                <p class="p-text" style={{ marginTop: "10px" }}>
+                  Buying eyewear should leave you happy and good-looking, with
+                  money in your pocket. Glasses, sunglasses, and contacts—we’ve
+                  got your eyes covered.
+                </p>
+                <div class="app__work-tag app__flex">
+                  <p class="p-text">ReactJs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-project m-3 col-lg-3 col-6"
+            style={{ opacity: "1", transform: "none" }}
+          >
+            <div class="app__work-item app__flex">
+              <div class="app__work-img app__flex">
+                <img src="https://cdn.sanity.io/images/w1h2v7s6/production/d37e46ba616dc761b18201da504ffcacd048ab8f-500x318.png" />
+                <div class="app__work-hover app__flex">
+                  <a
+                    href="https://weather-stack-sunny.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/sunny-ops/web-dev"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div class="app__flex" style={{ transform: "none" }}>
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="app__work-content app__flex">
+                <h4 class="bold-text">WeatherStack</h4>
+                <p class="p-text" style={{ marginTop: "10px" }}>
+                  Get current weather information, historical data and forecasts
+                  using weatherstack - a free world weather REST API supporting
+                  millions of global locations.
+                </p>
+                <div class="app__work-tag app__flex">
+                  <p class="p-text">ReactJs</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="copyright">
