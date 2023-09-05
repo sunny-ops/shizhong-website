@@ -349,7 +349,7 @@ function Work(props) {
                   millions of global locations.
                 </p>
                 <div class="app__work-tag app__flex">
-                  <p class="p-text">ReactJs</p>
+                  <p class="p-text">HTML</p>
                 </div>
               </div>
             </div>
