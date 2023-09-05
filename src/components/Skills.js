@@ -179,7 +179,7 @@ function Skills(props) {
             <div class="app__skills-exp">
               <div class="app__skills-exp-item">
                 <div class="app__skills-exp-year">
-                  <p class="bold-text">09/2021 - Present</p>
+                  <p class="bold-text">09/2018 - 08/2021</p>
                 </div>
                 <div class="app__skills-exp-works">
                   <div
