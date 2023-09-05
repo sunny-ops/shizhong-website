@@ -5,7 +5,7 @@ function Work(props) {
   return (
     <div
       id="work"
-      style={{ height: "120vh", backgroundColor: "var(--primary-color)" }}
+      style={{ minHeight: "120vh", backgroundColor: "var(--primary-color)" }}
       className="d-flex flex-row"
     >
       <div className="social">
@@ -49,7 +49,7 @@ function Work(props) {
           style={{ width: "80%" }}
         >
           <div
-            class="my-project m-3 col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <div class="app__work-item app__flex">
@@ -110,7 +110,7 @@ function Work(props) {
             </div>
           </div>
           <div
-            class="my-project m-3 col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <div class="app__work-item app__flex">
@@ -171,7 +171,7 @@ function Work(props) {
             </div>
           </div>
           <div
-            class="my-project m-3 col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <div class="app__work-item app__flex">
@@ -233,7 +233,7 @@ function Work(props) {
             </div>
           </div>
           <div
-            class="my-project m-3 col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <div class="app__work-item app__flex">
@@ -294,7 +294,7 @@ function Work(props) {
             </div>
           </div>
           <div
-            class="my-project m-3 col-lg-3 col-6"
+            class="my-project m-3 col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <div class="app__work-item app__flex">

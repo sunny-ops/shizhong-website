@@ -10,7 +10,11 @@ function Contact(props) {
     console.log(chat);
   };
   return (
-    <div id="contact" style={{ height: "100vh" }} className="d-flex flex-row">
+    <div
+      id="contact"
+      style={{ minHeight: "100vh" }}
+      className="d-flex flex-row"
+    >
       <div className="social">
         <div>
           <a href="javascript:void(0);">

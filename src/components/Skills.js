@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills(props) {
   return (
-    <div id="skills" style={{ height: "100vh" }} className="d-flex flex-row">
+    <div id="skills" style={{ minHeight: "100vh" }} className="d-flex flex-row">
       <div className="social">
         <div>
           <a href="javascript:void(0);">

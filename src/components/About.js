@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 function About(props) {
   return (
-    <div id="about" style={{ height: "100vh" }} className="d-flex flex-row">
+    <div id="about" style={{ minHeight: "100vh" }} className="d-flex flex-row">
       <div className="social">
         <div>
           <a href="javascript:void(0);">
@@ -46,7 +46,7 @@ function About(props) {
           style={{ width: "90%" }}
         >
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="app__profile-item col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
@@ -62,7 +62,7 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="app__profile-item col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
@@ -80,7 +80,7 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="app__profile-item col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
@@ -98,7 +98,7 @@ function About(props) {
             </p>
           </div>
           <div
-            class="app__profile-item col-lg-3 col-6"
+            class="app__profile-item col-lg-3 col-12"
             style={{ opacity: "1", transform: "none" }}
           >
             <img
