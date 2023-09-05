@@ -57,4 +57,12 @@
   width: 100%;
   position: absolute;
   bottom: 0;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  /* 当屏幕宽度小于或等于600px时适用的样式 */
+  .app__header-circles {
+    flex-direction: row !important;
+  }
 }
