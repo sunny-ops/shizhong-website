@@ -45,6 +45,7 @@
 
 .app__skills-exp-year {
   margin-right: 3rem;
+  min-width: 155px;
 }
 
 .app__skills-exp-works {

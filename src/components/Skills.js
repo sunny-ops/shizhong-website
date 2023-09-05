@@ -188,6 +188,22 @@ function Skills(props) {
                     data-for="Frontend Developer"
                     // style="opacity: 1;"
                   >
+                    <h4 class="bold-text">Associate Research Scientist</h4>
+                    <p class="p-text">Hohai University</p>
+                  </div>
+                </div>
+              </div>
+              <div class="app__skills-exp-item">
+                <div class="app__skills-exp-year">
+                  <p class="bold-text">09/2021 - Present</p>
+                </div>
+                <div class="app__skills-exp-works">
+                  <div
+                    class="app__skills-exp-work"
+                    data-tip="true"
+                    data-for="Frontend Developer"
+                    // style="opacity: 1;"
+                  >
                     <h4 class="bold-text">Computer Science Master Student</h4>
                     <p class="p-text">Northeastern University</p>
                   </div>
