@@ -18,7 +18,7 @@ function MyNavbar() {
             fontSize: "30px",
           }}
         >
-          Sunny's Homepage
+          Shi's Homepage
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <div class="app__navbar-menu">

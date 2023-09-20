@@ -11,7 +11,7 @@ function Home(props) {
     >
       <div className="social">
         <div>
-          <a href="javascript:void(0);">
+          <a href="https://www.linkedin.com/in/shi-zhong-bb94a4229/">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -26,7 +26,7 @@ function Home(props) {
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);">
+          <a href="https://github.com/sunny-ops">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -48,13 +48,13 @@ function Home(props) {
               <span>👋</span>
               <div style={{ marginLeft: "20px" }}>
                 <p class="p-text">Hello, I am</p>
-                <h1 class="head-text">Sunny</h1>
+                <h1 class="head-text">Shi</h1>
               </div>
             </div>
             <div class="tag-cmp app__flex">
               <h3 class="p-text">FRONTEND ENGINEER</h3>
 
-              <h3 class="p-text">BACKEND ENGINEER</h3>
+              <h3 class="p-text">SOFTWARE ENGINEER DEVELOPER</h3>
               <h3 class="p-text">FULLSTACK DEVELOPER</h3>
             </div>
           </div>
@@ -71,7 +71,7 @@ function Home(props) {
           >
             <div class="circle-cmp app__flex">
               <img
-                src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+                src="https://cdn.sanity.io/images/06fwndg0/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png"
                 alt="profile_bg"
               />
             </div>
@@ -80,7 +80,7 @@ function Home(props) {
               style={{ width: "150px", height: "150px" }}
             >
               <img
-                src="https://cdn.sanity.io/images/06fwndg0/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png"
+                src="https://cdn.sanity.io/images/06fwndg0/production/905a2a9fd24b3f3aa44c1fab7efaa74729762f93-259x259.png"
                 alt="profile_bg"
               />
             </div>
@@ -98,13 +98,13 @@ function Home(props) {
               style={{ width: "150px", height: "150px" }}
             >
               <img
-                src="https://cdn.sanity.io/images/w1h2v7s6/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png"
+                src="https://cdn.sanity.io/images/w1h2v7s6/production/64f3e20f8ad906d56dea96863b6db87fad6efb52-64x64.png"
                 alt="profile_bg"
               />
             </div>
             <div class="circle-cmp app__flex">
               <img
-                src="https://cdn.sanity.io/images/06fwndg0/production/905a2a9fd24b3f3aa44c1fab7efaa74729762f93-259x259.png"
+                src="https://cdn.sanity.io/images/w1h2v7s6/production/d8c8025b1695a3f14f849b99afc71d917ef40813-480x480.png"
                 alt="profile_bg"
               />
             </div>

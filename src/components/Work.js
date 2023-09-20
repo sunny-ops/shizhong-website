@@ -10,7 +10,7 @@ function Work(props) {
     >
       <div className="social">
         <div>
-          <a href="javascript:void(0);">
+          <a href="https://www.linkedin.com/in/shi-zhong-bb94a4229/">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -25,7 +25,7 @@ function Work(props) {
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);">
+          <a href="https://github.com/sunny-ops">
             <svg
               stroke="currentColor"
               fill="currentColor"
