@@ -138,11 +138,8 @@
   height: 725px;
   background-image: url("../images/shizhong.jpg");
   background-repeat: no-repeat;
-  /* background-size: cover;
-  background-position: center; */
-  /* background-position: center 100%; */
+  background-size: cover;
   background-position: center;
-  background-size: 75%;
 }
 
 .app__header-img .overlay_circle {
