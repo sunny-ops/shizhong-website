@@ -109,7 +109,7 @@ function Contact(props) {
         )}
 
         <div class="copyright">
-          <p class="p-text"> @2023 Sunny </p>
+          <p class="p-text"> @2023 Shi Zhong </p>
           <p class="p-text"> All rights reserved </p>
         </div>
       </div>
