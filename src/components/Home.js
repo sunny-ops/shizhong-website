@@ -51,7 +51,14 @@ function Home(props) {
                 <h1 class="head-text">Shi</h1>
               </div>
             </div>
-            <div class="tag-cmp app__flex">
+            <div
+              class="tag-cmp app__flex"
+              style={{
+                width: "280px",
+                paddingLeft: "30px",
+                alignItems: "flex-start",
+              }}
+            >
               <h3 class="p-text">FRONTEND ENGINEER</h3>
 
               <h3 class="p-text">SOFTWARE ENGINEER DEVELOPER</h3>
